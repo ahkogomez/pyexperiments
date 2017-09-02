@@ -1,0 +1,666 @@
+M
+
+Enter the root password: ********
+
+Reset configuration to default values [N]? n
+
+For each of the following questions, you can press <Return> to select the value shown in braces, or you can enter a new value.
+
+ETHERNET INTERFACE SETTINGS:
+
+Obtain IP settings automatically using DHCP for this interface [Y]? n
+IP address  [192.168.0.43]? 10.0.6.11
+  IP address IP address is 10.0.6.11
+Subnet mask  [255.255.255.0]? 255.255.0.0
+  Subnet mask IP address is 255.255.0.0
+Gateway address  [192.168.0.128]? 10.0.0.1
+  Gateway address IP address is 10.0.0.1
+
+This interface must have a unique MAC address.
+Ethernet MAC Address [00:40:9D:AD:02:2A]? 
+Ethernet duplex setting (default, full, half)? [default] default
+
+SERIAL CONSOLE PORT SETTINGS:
+
+Set the baud rate of the serial console port [9600]?
+    9600, 19200, 38400, 57600, 115200
+9600
+
+SECURITY SETTINGS:
+
+Would you like to update the Root Password [N]? y
+Enter the new Root Password:    **********
+Re-enter the new Root Password: **********
+Would you like to update the Administrator 'admin' Password [N]? n
+
+MISCELLANEOUS SETTINGS:
+
+Each development board must have a unique serial number
+Set the board's serial number[N99999999]? P45600725
+  The board's new serial number is P45600725
+
+How long (in seconds) should CPU delay before starting up [5]? 5
+  After board is reset, start-up code will wait 5 seconds.
+
+Saving the changes in NV memory...Done.
+
+
+
+NET+OS Version 7.2
+Copyright (c) 1997-2007, Digi International, Inc.
+
+PLATFORM: connectcore9c_a_esp
+APPLICATION: 3-0613 PM3001 Test Slave
+-----------------------------------------------------------------------------
+NETWORK INTERFACE PARAMETERS:
+  IP address on LAN is 10.0.6.11
+  LAN interface's subnet mask is 255.255.0.0
+  IP address of default gateway to other networks is 10.0.0.1
+HARDWARE PARAMETERS:
+  Serial channels will use a baud rate of 9600
+  This board's serial number is P45600725
+  This board's Ethernet MAC Address is 00:40:9D:AD:02:2A
+  After board is reset, start-up code will wait 5 seconds
+  Default duplex setting for Ethernet connection: default
+-----------------------------------------------------------------------------
+Press any key in 5 seconds to change these settings.
+
+IAM:Got AUTO-CONFIGURED IPv6 address FE80::240:9DFF:FEAD:22A on interface eth0:3
+IAM:Got STATIC IPv4 address 10.0.6.11 on interface eth0
+IAM:Got AUTOIP IPv4 address 169.254.20.70 on interface eth0:0
+Network IP configured.
+FTP server started.
+010-0322 PM3001 Test Software Slave v1.01
+IP address is: 10.0.6.11
+FTP: Firmware flash download complete.
+FTP: Firmware flash download complete.
+FTP: Flash download session complete.
+Resetting system in 2 seconds.
+ü
+
+
+NET+OS Version 7.2
+Copyright (c) 1997-2007, Digi International, Inc.
+
+PLATFORM: connectcore9c_a_esp
+APPLICATION: 3-0613 PM3001 Test Slave
+-----------------------------------------------------------------------------
+NETWORK INTERFACE PARAMETERS:
+  The board will obtain IP configuration parameters from the network.
+HARDWARE PARAMETERS:
+  Serial channels will use a baud rate of 9600
+  This board's serial number is N99999999
+  This board's Ethernet MAC Address is 00:40:9D:AD:DD:1C
+  After board is reset, start-up code will wait 5 seconds
+  Default duplex setting for Ethernet connection: default
+-----------------------------------------------------------------------------
+Press any key in 5 seconds to change these settings.
+
+Press A to Accept the settings, or M to Modify?      M
+
+Enter the root password: ********
+
+Reset configuration to default values [N]? n
+
+For each of the following questions, you can press <Return> to select the value shown in braces, or you can enter a new value.
+
+ETHERNET INTERFACE SETTINGS:
+
+Obtain IP settings automatically using DHCP for this interface [Y]? n
+IP address  [192.168.0.29]? 10.0.6.11
+  IP address IP address is 10.0.6.11
+Subnet mask  [255.255.255.0]? 255.255.0.0
+  Subnet mask IP address is 255.255.0.0
+Gateway address  [192.168.0.128]? 10.0.0.1
+  Gateway address IP address is 10.0.0.1
+
+This interface must have a unique MAC address.
+Ethernet MAC Address [00:40:9D:AD:DD:1C]? 
+Ethernet duplex setting (default, full, half)? [default] default
+
+SERIAL CONSOLE PORT SETTINGS:
+
+Set the baud rate of the serial console port [9600]?
+    9600, 19200, 38400, 57600, 115200
+9600
+
+SECURITY SETTINGS:
+
+Would you like to update the Root Password [N]? y
+Enter the new Root Password:    **********
+Re-enter the new Root Password: **********
+Would you like to update the Administrator 'admin' Password [N]? n
+
+MISCELLANEOUS SETTINGS:
+
+Each development board must have a unique serial number
+Set the board's serial number[N99999999]? P45600724
+  The board's new serial number is P45600724
+
+How long (in seconds) should CPU delay before starting up [5]? 5
+  After board is reset, start-up code will wait 5 seconds.
+
+Saving the changes in NV memory...Done.
+
+
+
+NET+OS Version 7.2
+Copyright (c) 1997-2007, Digi International, Inc.
+
+PLATFORM: connectcore9c_a_esp
+APPLICATION: 3-0613 PM3001 Test Slave
+-----------------------------------------------------------------------------
+NETWORK INTERFACE PARAMETERS:
+  IP address on LAN is 10.0.6.11
+  LAN interface's subnet mask is 255.255.0.0
+  IP address of default gateway to other networks is 10.0.0.1
+HARDWARE PARAMETERS:
+  Serial channels will use a baud rate of 9600
+  This board's serial number is P45600724
+  This board's Ethernet MAC Address is 00:40:9D:AD:DD:1C
+  After board is reset, start-up code will wait 5 seconds
+  Default duplex setting for Ethernet connection: default
+-----------------------------------------------------------------------------
+Press any key in 5 seconds to change these settings.
+
+IAM:Got AUTO-CONFIGURED IPv6 address FE80::240:9DFF:FEAD:DD1C on interface eth0:3
+IAM:Got STATIC IPv4 address 10.0.6.11 on interface eth0
+IAM:Got AUTOIP IPv4 address 169.254.9.149 on interface eth0:0
+Network IP configured.
+FTP server started.
+010-0322 PM3001 Test Software Slave v1.01
+IP address is: 10.0.6.11
+FTP: Firmware flash download complete.
+FTP: Firmware flash download complete.
+FTP: Flash download session complete.
+Resetting system in 2 seconds.
+ü
+
+
+NET+OS Version 7.2
+Copyright (c) 1997-2007, Digi International, Inc.
+
+PLATFORM: connectcore9c_a_esp
+APPLICATION: 3-0613 PM3001 Test Slave
+-----------------------------------------------------------------------------
+NETWORK INTERFACE PARAMETERS:
+  The board will obtain IP configuration parameters from the network.
+HARDWARE PARAMETERS:
+  Serial channels will use a baud rate of 9600
+  This board's serial number is N99999999
+  This board's Ethernet MAC Address is 00:40:9D:AD:DC:CA
+  After board is reset, start-up code will wait 5 seconds
+  Default duplex setting for Ethernet connection: default
+-----------------------------------------------------------------------------
+Press any key in 5 seconds to change these settings.
+
+Press A to Accept the settings, or M to Modify?M
+
+Enter the root password: ********
+
+Reset configuration to default values [N]? n
+
+For each of the following questions, you can press <Return> to select the value shown in braces, or you can enter a new value.
+
+ETHERNET INTERFACE SETTINGS:
+
+Obtain IP settings automatically using DHCP for this interface [Y]? n
+IP address  [192.168.0.11]? 10.0.6.11
+  IP address IP address is 10.0.6.11
+Subnet mask  [255.255.255.0]? 255.255.0.0
+  Subnet mask IP address is 255.255.0.0
+Gateway address  [192.168.0.128]? 10.0.0.1
+  Gateway address IP address is 10.0.0.1
+
+This interface must have a unique MAC address.
+Ethernet MAC Address [00:40:9D:AD:DC:CA]? 
+Ethernet duplex setting (default, full, half)? [default] default
+
+SERIAL CONSOLE PORT SETTINGS:
+
+Set the baud rate of the serial console port [9600]?
+    9600, 19200, 38400, 57600, 115200
+9600
+
+SECURITY SETTINGS:
+
+Would you like to update the Root Password [N]? y
+Enter the new Root Password:    **********
+Re-enter the new Root Password: **********
+Would you like to update the Administrator 'admin' Password [N]? n
+
+MISCELLANEOUS SETTINGS:
+
+Each development board must have a unique serial number
+Set the board's serial number[N99999999]? P45600731
+  The board's new serial number is P45600731
+
+How long (in seconds) should CPU delay before starting up [5]? 5
+  After board is reset, start-up code will wait 5 seconds.
+
+Saving the changes in NV memory...Done.
+
+
+
+NET+OS Version 7.2
+Copyright (c) 1997-2007, Digi International, Inc.
+
+PLATFORM: connectcore9c_a_esp
+APPLICATION: 3-0613 PM3001 Test Slave
+-----------------------------------------------------------------------------
+NETWORK INTERFACE PARAMETERS:
+  IP address on LAN is 10.0.6.11
+  LAN interface's subnet mask is 255.255.0.0
+  IP address of default gateway to other networks is 10.0.0.1
+HARDWARE PARAMETERS:
+  Serial channels will use a baud rate of 9600
+  This board's serial number is P45600731
+  This board's Ethernet MAC Address is 00:40:9D:AD:DC:CA
+  After board is reset, start-up code will wait 5 seconds
+  Default duplex setting for Ethernet connection: default
+-----------------------------------------------------------------------------
+Press any key in 5 seconds to change these settings.
+
+IAM:Got AUTO-CONFIGURED IPv6 address FE80::240:9DFF:FEAD:DCCA on interface eth0:3
+IAM:Got STATIC IPv4 address 10.0.6.11 on interface eth0
+IAM:Got AUTOIP IPv4 address 169.254.16.107 on interface eth0:0
+Network IP configured.
+FTP server started.
+010-0322 PM3001 Test Software Slave v1.01
+IP address is: 10.0.6.11
+FTP: Firmware flash download complete.
+FTP: Firmware flash download complete.
+FTP: Flash download session complete.
+Resetting system in 2 seconds.
+ü
+
+
+NET+OS Version 7.2
+Copyright (c) 1997-2007, Digi International, Inc.
+
+PLATFORM: connectcore9c_a_esp
+APPLICATION: 3-0613 PM3001 Test Slave
+-----------------------------------------------------------------------------
+NETWORK INTERFACE PARAMETERS:
+  The board will obtain IP configuration parameters from the network.
+HARDWARE PARAMETERS:
+  Serial channels will use a baud rate of 9600
+  This board's serial number is N99999999
+  This board's Ethernet MAC Address is 00:40:9D:AF:D4:78
+  After board is reset, start-up code will wait 5 seconds
+  Default duplex setting for Ethernet connection: default
+-----------------------------------------------------------------------------
+Press any key in 5 seconds to change these settings.
+
+Press A to Accept the settings, or M to Modify?M
+
+Enter the root password: ********
+
+Reset configuration to default values [N]? n
+
+For each of the following questions, you can press <Return> to select the value shown in braces, or you can enter a new value.
+
+ETHERNET INTERFACE SETTINGS:
+
+Obtain IP settings automatically using DHCP for this interface [Y]? n
+IP address  [192.168.0.57]? 10.0.6.11
+  IP address IP address is 10.0.6.11
+Subnet mask  [255.255.255.0]? 255.255.0.0
+  Subnet mask IP address is 255.255.0.0
+Gateway address  [192.168.0.128]? 10.0.0.1
+  Gateway address IP address is 10.0.0.1
+
+This interface must have a unique MAC address.
+Ethernet MAC Address [00:40:9D:AF:D4:78]? 
+Ethernet duplex setting (default, full, half)? [default] default
+
+SERIAL CONSOLE PORT SETTINGS:
+
+Set the baud rate of the serial console port [9600]?
+    9600, 19200, 38400, 57600, 115200
+9600
+
+SECURITY SETTINGS:
+
+Would you like to update the Root Password [N]? y
+Enter the new Root Password:    **********
+Re-enter the new Root Password: **********
+Would you like to update the Administrator 'admin' Password [N]? n
+
+MISCELLANEOUS SETTINGS:
+
+Each development board must have a unique serial number
+Set the board's serial number[N99999999]? P45600732
+  The board's new serial number is P45600732
+
+How long (in seconds) should CPU delay before starting up [5]? 5
+  After board is reset, start-up code will wait 5 seconds.
+
+Saving the changes in NV memory...Done.
+
+
+
+NET+OS Version 7.2
+Copyright (c) 1997-2007, Digi International, Inc.
+
+PLATFORM: connectcore9c_a_esp
+APPLICATION: 3-0613 PM3001 Test Slave
+-----------------------------------------------------------------------------
+NETWORK INTERFACE PARAMETERS:
+  IP address on LAN is 10.0.6.11
+  LAN interface's subnet mask is 255.255.0.0
+  IP address of default gateway to other networks is 10.0.0.1
+HARDWARE PARAMETERS:
+  Serial channels will use a baud rate of 9600
+  This board's serial number is P45600732
+  This board's Ethernet MAC Address is 00:40:9D:AF:D4:78
+  After board is reset, start-up code will wait 5 seconds
+  Default duplex setting for Ethernet connection: default
+-----------------------------------------------------------------------------
+Press any key in 5 seconds to change these settings.
+
+IAM:Got AUTO-CONFIGURED IPv6 address FE80::240:9DFF:FEAF:D478 on interface eth0:3
+IAM:Got STATIC IPv4 address 10.0.6.11 on interface eth0
+IAM:Got AUTOIP IPv4 address 169.254.193.239 on interface eth0:0
+Network IP configured.
+FTP server started.
+010-0322 PM3001 Test Software Slave v1.01
+IP address is: 10.0.6.11
+FTP: Firmware flash download complete.
+FTP: Firmware flash download complete.
+FTP: Flash download session complete.
+Resetting system in 2 seconds.
+ü
+
+
+NET+OS Version 7.2
+Copyright (c) 1997-2007, Digi International, Inc.
+
+PLATFORM: connectcore9c_a_esp
+APPLICATION: 3-0613 PM3001 Test Slave
+-----------------------------------------------------------------------------
+NETWORK INTERFACE PARAMETERS:
+  The board will obtain IP configuration parameters from the network.
+HARDWARE PARAMETERS:
+  Serial channels will use a baud rate of 9600
+  This board's serial number is N99999999
+  This board's Ethernet MAC Address is 00:40:9D:AD:DD:0D
+  After board is reset, start-up code will wait 5 seconds
+  Default duplex setting for Ethernet connection: default
+-----------------------------------------------------------------------------
+Press any key in 5 seconds to change these settings.
+
+Press A to Accept the settings, or M to Modify?M
+
+Enter the root password: ********
+
+Reset configuration to default values [N]? n
+
+For each of the following questions, you can press <Return> to select the value shown in braces, or you can enter a new value.
+
+ETHERNET INTERFACE SETTINGS:
+
+Obtain IP settings automatically using DHCP for this interface [Y]? n
+IP address  [192.168.0.14]? 10.0.6.11
+  IP address IP address is 10.0.6.11
+Subnet mask  [255.255.255.0]? 255.255.0.0
+  Subnet mask IP address is 255.255.0.0
+Gateway address  [192.168.0.128]? 10.0.0.1
+  Gateway address IP address is 10.0.0.1
+
+This interface must have a unique MAC address.
+Ethernet MAC Address [00:40:9D:AD:DD:0D]? 
+Ethernet duplex setting (default, full, half)? [default] default
+
+SERIAL CONSOLE PORT SETTINGS:
+
+Set the baud rate of the serial console port [9600]?
+    9600, 19200, 38400, 57600, 115200
+9600
+
+SECURITY SETTINGS:
+
+Would you like to update the Root Password [N]? y
+Enter the new Root Password:    **********
+Re-enter the new Root Password: **********
+Would you like to update the Administrator 'admin' Password [N]? n
+
+MISCELLANEOUS SETTINGS:
+
+Each development board must have a unique serial number
+Set the board's serial number[N99999999]? P45600733
+  The board's new serial number is P45600733
+
+How long (in seconds) should CPU delay before starting up [5]? 5
+  After board is reset, start-up code will wait 5 seconds.
+
+Saving the changes in NV memory...Done.
+
+
+
+NET+OS Version 7.2
+Copyright (c) 1997-2007, Digi International, Inc.
+
+PLATFORM: connectcore9c_a_esp
+APPLICATION: 3-0613 PM3001 Test Slave
+-----------------------------------------------------------------------------
+NETWORK INTERFACE PARAMETERS:
+  IP address on LAN is 10.0.6.11
+  LAN interface's subnet mask is 255.255.0.0
+  IP address of default gateway to other networks is 10.0.0.1
+HARDWARE PARAMETERS:
+  Serial channels will use a baud rate of 9600
+  This board's serial number is P45600733
+  This board's Ethernet MAC Address is 00:40:9D:AD:DD:0D
+  After board is reset, start-up code will wait 5 seconds
+  Default duplex setting for Ethernet connection: default
+-----------------------------------------------------------------------------
+Press any key in 5 seconds to change these settings.
+
+IAM:Got AUTO-CONFIGURED IPv6 address FE80::240:9DFF:FEAD:DD0D on interface eth0:3
+IAM:Got STATIC IPv4 address 10.0.6.11 on interface eth0
+IAM:Got AUTOIP IPv4 address 169.254.3.83 on interface eth0:0
+Network IP configured.
+FTP server started.
+010-0322 PM3001 Test Software Slave v1.01
+IP address is: 10.0.6.11
+FTP: Firmware flash download complete.
+FTP: Firmware flash download complete.
+FTP: Flash download session complete.
+Resetting system in 2 seconds.
+üü
+
+
+NET+OS Version 7.2
+Copyright (c) 1997-2007, Digi International, Inc.
+
+PLATFORM: connectcore9c_a_esp
+APPLICATION: 3-0613 PM3001 Test Slave
+-----------------------------------------------------------------------------
+NETWORK INTERFACE PARAMETERS:
+  The board will obtain IP configuration parameters from the network.
+HARDWARE PARAMETERS:
+  Serial channels will use a baud rate of 9600
+  This board's serial number is N99999999
+  This board's Ethernet MAC Address is 00:40:9D:AD:DC:E9
+  After board is reset, start-up code will wait 5 seconds
+  Default duplex setting for Ethernet connection: default
+-----------------------------------------------------------------------------
+Press any key in 5 seconds to change these settings.
+
+Press A to Accept the settings, or M to Modify?  M
+
+Enter the root password: ********
+
+Reset configuration to default values [N]? n
+
+For each of the following questions, you can press <Return> to select the value shown in braces, or you can enter a new value.
+
+ETHERNET INTERFACE SETTINGS:
+
+Obtain IP settings automatically using DHCP for this interface [Y]? n
+IP address  [192.168.0.42]? 10.0.6.11
+  IP address IP address is 10.0.6.11
+Subnet mask  [255.255.255.0]? 255.255.0.0
+  Subnet mask IP address is 255.255.0.0
+Gateway address  [192.168.0.128]? 10.0.0.1
+  Gateway address IP address is 10.0.0.1
+
+This interface must have a unique MAC address.
+Ethernet MAC Address [00:40:9D:AD:DC:E9]? 
+Ethernet duplex setting (default, full, half)? [default] default
+
+SERIAL CONSOLE PORT SETTINGS:
+
+Set the baud rate of the serial console port [9600]?
+    9600, 19200, 38400, 57600, 115200
+9600
+
+SECURITY SETTINGS:
+
+Would you like to update the Root Password [N]? y
+Enter the new Root Password:    **********
+Re-enter the new Root Password: **********
+Would you like to update the Administrator 'admin' Password [N]? n
+
+MISCELLANEOUS SETTINGS:
+
+Each development board must have a unique serial number
+Set the board's serial number[N99999999]? P45600735
+  The board's new serial number is P45600735
+
+How long (in seconds) should CPU delay before starting up [5]? 5
+  After board is reset, start-up code will wait 5 seconds.
+
+Saving the changes in NV memory...Done.
+
+
+
+NET+OS Version 7.2
+Copyright (c) 1997-2007, Digi International, Inc.
+
+PLATFORM: connectcore9c_a_esp
+APPLICATION: 3-0613 PM3001 Test Slave
+-----------------------------------------------------------------------------
+NETWORK INTERFACE PARAMETERS:
+  IP address on LAN is 10.0.6.11
+  LAN interface's subnet mask is 255.255.0.0
+  IP address of default gateway to other networks is 10.0.0.1
+HARDWARE PARAMETERS:
+  Serial channels will use a baud rate of 9600
+  This board's serial number is P45600735
+  This board's Ethernet MAC Address is 00:40:9D:AD:DC:E9
+  After board is reset, start-up code will wait 5 seconds
+  Default duplex setting for Ethernet connection: default
+-----------------------------------------------------------------------------
+Press any key in 5 seconds to change these settings.
+
+IAM:Got AUTO-CONFIGURED IPv6 address FE80::240:9DFF:FEAD:DCE9 on interface eth0:3
+IAM:Got STATIC IPv4 address 10.0.6.11 on interface eth0
+IAM:Got AUTOIP IPv4 address 169.254.130.61 on interface eth0:0
+Network IP configured.
+FTP server started.
+010-0322 PM3001 Test Software Slave v1.01
+IP address is: 10.0.6.11
+FTP: Firmware flash download complete.
+FTP: Firmware flash download complete.
+FTP: Flash download session complete.
+Resetting system in 2 seconds.
+ü
+
+
+NET+OS Version 7.2
+Copyright (c) 1997-2007, Digi International, Inc.
+
+PLATFORM: connectcore9c_a_esp
+APPLICATION: 3-0613 PM3001 Test Slave
+-----------------------------------------------------------------------------
+NETWORK INTERFACE PARAMETERS:
+  The board will obtain IP configuration parameters from the network.
+HARDWARE PARAMETERS:
+  Serial channels will use a baud rate of 9600
+  This board's serial number is N99999999
+  This board's Ethernet MAC Address is 00:40:9D:AF:D3:F4
+  After board is reset, start-up code will wait 5 seconds
+  Default duplex setting for Ethernet connection: default
+-----------------------------------------------------------------------------
+Press any key in 5 seconds to change these settings.
+
+Press A to Accept the settings, or M to Modify?M
+
+Enter the root password: ********
+
+Reset configuration to default values [N]? n
+
+For each of the following questions, you can press <Return> to select the value shown in braces, or you can enter a new value.
+
+ETHERNET INTERFACE SETTINGS:
+
+Obtain IP settings automatically using DHCP for this interface [Y]? n
+IP address  [192.168.0.53]? 10.0.6.11
+  IP address IP address is 10.0.6.11
+Subnet mask  [255.255.255.0]? 255.255.0.0
+  Subnet mask IP address is 255.255.0.0
+Gateway address  [192.168.0.128]? 10.0.0.1
+  Gateway address IP address is 10.0.0.1
+
+This interface must have a unique MAC address.
+Ethernet MAC Address [00:40:9D:AF:D3:F4]? 
+Ethernet duplex setting (default, full, half)? [default] default
+
+SERIAL CONSOLE PORT SETTINGS:
+
+Set the baud rate of the serial console port [9600]?
+    9600, 19200, 38400, 57600, 115200
+9600
+
+SECURITY SETTINGS:
+
+Would you like to update the Root Password [N]? y
+Enter the new Root Password:    **********
+Re-enter the new Root Password: **********
+Would you like to update the Administrator 'admin' Password [N]? n
+
+MISCELLANEOUS SETTINGS:
+
+Each development board must have a unique serial number
+Set the board's serial number[N99999999]? P45600734
+  The board's new serial number is P45600734
+
+How long (in seconds) should CPU delay before starting up [5]? 5
+  After board is reset, start-up code will wait 5 seconds.
+
+Saving the changes in NV memory...Done.
+
+
+
+NET+OS Version 7.2
+Copyright (c) 1997-2007, Digi International, Inc.
+
+PLATFORM: connectcore9c_a_esp
+APPLICATION: 3-0613 PM3001 Test Slave
+-----------------------------------------------------------------------------
+NETWORK INTERFACE PARAMETERS:
+  IP address on LAN is 10.0.6.11
+  LAN interface's subnet mask is 255.255.0.0
+  IP address of default gateway to other networks is 10.0.0.1
+HARDWARE PARAMETERS:
+  Serial channels will use a baud rate of 9600
+  This board's serial number is P45600734
+  This board's Ethernet MAC Address is 00:40:9D:AF:D3:F4
+  After board is reset, start-up code will wait 5 seconds
+  Default duplex setting for Ethernet connection: default
+-----------------------------------------------------------------------------
+Press any key in 5 seconds to change these settings.
+
+IAM:Got AUTO-CONFIGURED IPv6 address FE80::240:9DFF:FEAF:D3F4 on interface eth0:3
+IAM:Got STATIC IPv4 address 10.0.6.11 on interface eth0
+IAM:Got AUTOIP IPv4 address 169.254.130.194 on interface eth0:0
+Network IP configured.
+FTP server started.
+010-0322 PM3001 Test Software Slave v1.01
+IP address is: 10.0.6.11
+FTP: Firmware flash download complete.
+FTP: Firmware flash download complete.
+FTP: Flash download session complete.
+Resetting system in 2 seconds.
