@@ -1,3 +1,4 @@
+
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
@@ -15,9 +16,14 @@ Website: www.zetcode.com
 
 # from Tkinter import Tk, Text, BOTH, W, N, E, S
 # from ttk import Frame, Button, Label, Style
-from tkinter import *
-from tkinter import Tk, Text, BOTH, W, N, E, S
-from tkinter.ttk import Frame, Button, Label, Style, Entry
+try:
+    from tkinter import *
+    from tkinter import Tk, Text, BOTH, W, N, E, S
+    from tkinter.ttk import Frame, Button, Label, Style, Entry
+except:
+    from Tkinter import *
+    from Tkinter import Tk, Text, BOTH, W, N, E, S
+    from ttk import Frame, Button, Label, Style, Entry
 
 import serial
 import serial.tools.list_ports
@@ -149,14 +155,14 @@ def install_kernel(IP='', username= 'root', password = 'Netsilicon', KernelLoc='
         print(KernelLoc)
         file = KernelLoc+'\image.bin'
         print ("uploading ", file, "...")
-        ftp.storbinary('STOR image.bin', open(file, 'rb'),callback = print("."))
+        ftp.storbinary('STOR image.bin', open(file, 'rb'))
         print ("done!")
     
         time.sleep(1)
     
         file = KernelLoc+'\\rom.bin'
         print ("uploading ", file, "...")
-        ftp.storbinary('STOR rom.bin', open(file, 'rb'),callback = print("."))
+        ftp.storbinary('STOR rom.bin', open(file, 'rb'))
         print ("done!")
     
         ftp.quit()
@@ -295,7 +301,7 @@ def serial_conf(com_port,old_pwd,IP,subnet,gateway,SN):
                         else:
                             if "Press A to Accept the settings, or M to Modify?" in buff:
                                 ser.write("M")
-                            elif "Enter the root password:" if buff:
+                            elif "Enter the root password:" in buff:
                                 ser.write(old_pwd+"\n")
                             elif "Reset configuration to default values [N]?" in buff:
                                 ser.write('n\n')

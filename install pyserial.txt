@@ -1,0 +1,8 @@
+how to install pyserial:
+ download pyserial.tar.gz
+ extract
+ find folder with setup.py
+ go to cmd
+ type "start py -2 setup.py install"
+ wait
+ 
