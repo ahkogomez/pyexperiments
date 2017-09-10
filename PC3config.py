@@ -146,6 +146,10 @@ class Example(Frame):
         if self.pc3.get():
             get_pc3(self.IPentry.get(), 'root', self.NewPwdentry.get(), self.KernelLocEntry.get(), self.SNentry.get())
             
+
+def progress():
+    print (".")
+
 def install_kernel(IP='', username= 'root', password = 'Netsilicon', KernelLoc=''):
     print ("connecting to ", IP, ", username: ", username,", Pwd: ", password)
 
@@ -155,14 +159,14 @@ def install_kernel(IP='', username= 'root', password = 'Netsilicon', KernelLoc='
         print(KernelLoc)
         file = KernelLoc+'\image.bin'
         print ("uploading ", file, "...")
-        ftp.storbinary('STOR image.bin', open(file, 'rb'))
+        ftp.storbinary('STOR image.bin', open(file, 'rb'), callback= progress())
         print ("done!")
     
         time.sleep(1)
     
         file = KernelLoc+'\\rom.bin'
         print ("uploading ", file, "...")
-        ftp.storbinary('STOR rom.bin', open(file, 'rb'))
+        ftp.storbinary('STOR rom.bin', open(file, 'rb'), callback= progress())
         print ("done!")
     
         ftp.quit()
@@ -190,7 +194,7 @@ def install_ESS(IP='', username='root', password='Netsilicon', ESSLoc=''):
             
             file = ESSLoc+ '\\'+ x
             print ("uploading ", file, "...")
-            ftp.storbinary('STOR '+ x, open(file, 'rb'))
+            ftp.storbinary('STOR '+ x, open(file, 'rb'), callback= progress())
             print ("done!")
             ftp.quit()
             
